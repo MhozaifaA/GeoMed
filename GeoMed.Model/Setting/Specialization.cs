@@ -6,9 +6,9 @@ using System.Text;
 
 namespace GeoMed.Model.Setting
 {
-    public class Specialization : BaseModel
+    public class Specialization : BaseModel   // optional ممكن نشيلو  
     {
-        public string Name { get; init; }
+        public string Name { get; set; }
 
         public ICollection<GMUser> GMUsers { get; set; }
     }
